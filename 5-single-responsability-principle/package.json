@@ -1,0 +1,26 @@
+{
+  "name": "liskov-substitution-principle",
+  "version": "1.0.0",
+  "description": "Exemplos didáticos do Princípio da Substituição de Liskov (LSP)",
+  "main": "main.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/src/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "keywords": [
+    "solid",
+    "lsp",
+    "liskov",
+    "typescript",
+    "design-patterns",
+    "principles"
+  ],
+  "author": "Design Patterns Study",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  }
+}
